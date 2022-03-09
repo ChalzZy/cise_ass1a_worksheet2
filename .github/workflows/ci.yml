@@ -25,12 +25,10 @@ jobs:
 
       - name: Install dependencies
         run: cd frontend
-        run: npm install
+          npm install
 
       - name: Run the tests
-        run: cd frontend
         run: npm test
 
       - name: Build
-        run: cd frontend
         run: npm run build
